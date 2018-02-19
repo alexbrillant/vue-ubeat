@@ -1,5 +1,9 @@
 # 🔥 Playlit 🔥
 
+![alt text](https://raw.githubusercontent.com/alexbrillant/vue-ubeat/master/preview1.png)
+![alt text](https://raw.githubusercontent.com/alexbrillant/vue-ubeat/master/preview2.png)
+
+
 ### Prérequis
 - Git [Windows](http://www.git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Windows), [Mac](http://www.git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Mac), [Linux](http://www.git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Linux)
 - [Node.js](https://nodejs.org/en/) (version LTS recommandé)
