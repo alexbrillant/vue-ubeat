@@ -1,0 +1,92 @@
+@import '_colors'
+
+// Override Vuetify general theme
+$theme := {
+  primary: scyan()
+  accent: smagenta()
+  secondary: sviolet()
+  info: sblue()
+  warning: sorange()
+  error: sred()
+  success: sgreen()
+}
+
+// Override Vuetify material-dark theme
+$material-dark := {
+  status-bar: {
+    regular: #000000,
+    lights-out: rgba(#000, .2)
+  },
+  app-bar: base02(),
+  background: base03(),
+  cards: base02(),
+  chips: {
+    background: base03(),
+    color: base00()
+  },
+  dividers: base03(),
+  text: {
+    theme: base1(),
+    primary: base1(),
+    secondary: base01(),
+    disabled: base00(.5)
+  },
+  icons: {
+    active: base1(),
+    inactive: base1(.5)
+  },
+  buttons: {
+    disabled: rgba(#fff, .3),
+    focused: rgba(#fff, .12),
+    focused-alt: rgba(#fff, .1),
+    pressed: rgba(#ccc, .25)
+  },
+  expansion-panels: {
+    focus: rgba(#000, .70)
+  },
+  selection-controls: {
+    active: scyan()
+    thumb: {
+      inactive: base01()
+      disabled: base02()
+    },
+    track: {
+      inactive: rgba(#fff, .3),
+      disabled: rgba(#fff, .1)
+    }
+  },
+  slider: {
+    active: rgba(#fff, .3),
+    inactive: rgba(#fff, .2),
+    disabled: rgba(#fff, .2),
+    discrete: #fff
+  },
+  tabs: {
+    active: #fff,
+    inactive: rgba(#fff, .7)
+  },
+  input-bottom-line: base1(),
+
+  stepper: {
+    active: rgba(#fff, 1),
+    completed: rgba(#fff, 0.87),
+    hover: rgba(#fff, 0.75)
+  },
+  table: {
+    active: #505050
+    hover: base02()
+  },
+  picker: {
+    background: $theme.accent
+  },
+
+  bg-color: base03()
+  fg-color: base02()
+  text-color: base0()
+  primary-text-percent: 1
+  secondary-text-percent: .70
+  disabledORhints-text-percent: .50
+  divider-percent: .12
+  active-icon-percent: 1
+  inactive-icon-percent: .50
+}

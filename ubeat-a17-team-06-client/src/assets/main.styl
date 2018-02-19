@@ -1,0 +1,33 @@
+@require 'theme'
+@require '~vuetify/src/stylus/main'
+
+.navigation-drawer--persistent.navigation-drawer--clipped
+  margin-top: 56px
+  max-height: calc(100% - 56px)
+
+.container
+  @media only screen and (max-width: 1024px)
+    padding: 1em
+    margin: 0
+    max-width: 100%
+
+.overflow-ellipsis
+  overflow: hidden
+  text-overflow: ellipsis
+
+.playlit-title
+  font-size: 50px
+  line-height: 48px
+  letter-spacing: normal
+
+.center-right-align
+  display: flex
+  align-items: center
+  justify-content: flex-end
+
+.center-left-align
+  display: flex
+  align-items: center
+  justify-content: flex-start
+
+
